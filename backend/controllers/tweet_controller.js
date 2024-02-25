@@ -51,7 +51,6 @@ const usertweets = async (req, res) => {
             })
             .sort({ createdAt: 'desc' })
             .exec();
-            console.log(tweets)
         res.status(200).json(tweets);
     } catch (error) {
         console.log(error);
@@ -80,7 +79,6 @@ const createtweets = async (req, res) => {
             const path = __basedir + `/uploads/${fileName}`;
             const tweet = new TweetModel({ content, image: fileName, author: req.user })
             await tweet.save();
-            console.log(tweet);
             res.status(200).json({ message: "New Tweet Successfully Added", tweet });
 
         }
