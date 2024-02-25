@@ -1,0 +1,13 @@
+h1{
+    border:2px solid grey;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+.tweet{
+    padding-left: 20px;
+    padding:20px;
+    border:2px solid rgb(222, 210, 210);
+    width:max-content;
+ }
+  

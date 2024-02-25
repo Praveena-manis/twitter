@@ -1,0 +1,60 @@
+.text{
+    text-align:start;
+    padding: 10px;
+    /* border:1px solid rgb(201, 197, 197);   */
+}
+.container{
+margin-top: 0px;
+
+}
+.container1{
+    border:1px solid rgb(214, 210, 210);   
+}
+textarea{
+    color: brown;
+}
+
+.btn{
+    height:40px;
+    margin-top: 5px;
+  }
+.profile{
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+}
+.form-control1{
+    border-color: lightskyblue;
+    width:450px;
+    height:200px;
+    
+}
+.image{
+    width:10px;
+    height:50px;
+}
+.heart{
+    border-color: red;
+}
+@keyframes heartbeat {
+    0% {
+      transform: scale(1);
+    }
+  
+    50% {
+      transform: scale(1.25);
+    }
+  
+    100% {
+      transform: scale(1);
+    }
+  }
+ 
+  .heart:hover {
+    animation: heartbeat 1s infinite;
+    fill: red;
+    color: red;
+    opacity: 1;
+    transition: opacity 500ms;
+  }
+  
